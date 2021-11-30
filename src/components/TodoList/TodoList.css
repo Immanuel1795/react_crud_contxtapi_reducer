@@ -1,0 +1,24 @@
+.todo-list {
+    width: 100%;
+    background: #2c4150;
+    border: 1px solid #707070;
+    padding: 1rem;
+  }
+  
+  .todo-list-title {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .todo-list-todos {
+    width: 100%;
+    height: 470px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .todo-list-todos::-webkit-scrollbar {
+    display: none;
+  }
+  
